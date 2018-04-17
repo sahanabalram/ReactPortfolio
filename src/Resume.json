@@ -1,0 +1,163 @@
+{   
+    "summary": [
+        "Highly motivated and goal oriented Web Developer",
+        "Hands on Experience with web development",
+        "Excellent communication and inter personal skills"
+    ],
+
+    "personalInfo" : 
+        {
+            "about": " Hello I'm Sahana Balram.I'm an aspiring Front-end Web Developer who is  goal-oriented, highly motivated with good communication and inter-personal skills. I also hold a Master's degreee in Information and Communication technology from University of Western Sydney, Australia.",
+            "name": "Sahana Balram",
+            "location": "San Diego, CA",
+            "github": "https://github.com/sahanabalram",
+            "linkedIn": "https://www.linkedin.com/in/sahana-balram/"
+
+        }
+    ,
+    "education": [
+        { 
+            "degree": "Web Develoment Coding BootCamp",
+            "university": "University of California San Diego, ",
+            "year": 2017
+        },
+        {
+            "degree": "Master's of Information and Communication Technology",
+            "university": "University of Western Sydney, Australia, ",
+            "year": 2015
+        },
+        {
+            "degree": "Bachelors of Computer Science",
+            "university": "Karpagam University, ",
+            "year": 2013
+        }
+    ],
+
+    "projects" : [
+        {
+            "heading": "Cartogram",
+            "description": "Project developed using Google Location and Weather API",
+            "technologies": [
+                "Material UI",
+                "Google Geo Code API",
+                "Google Maps API",
+                "Google Search API",
+                "Google Places API",
+                "Open Weather API",
+                "Farmer's Market API",
+                "Firebase NoSQL Database"
+            ],
+            "link": "https://sahanabalram.github.io/cartogram/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/cartogram/master/assets/images/app.JPG"
+        },
+        {
+            "heading": "BeatBot",
+            "description": "Project developed using Express, Express-HandleBars, Node.js, Sequelize,Spotify and iTunes API",
+            "technologies": [
+                "Bootstrap",
+                "Node.js",
+                "Express",
+                "Express-Handlebars",
+                "Sequelize",
+                "Spotify API",
+                "Apple iTunes API",
+                "Passport",
+                "bCrypt"
+            ],
+            "link": "https://beatbot-ucsd.herokuapp.com/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/BeatBot/master/public/images/beatbot1.png"
+        },
+
+        {
+            "heading": "Pick-A-Flick",
+            "description": "Project developed using React and Google Chatbot",
+            "technologies": [
+                "React",
+                "React-materialize",
+                "MovieDB API",
+                "Google Chatbot"
+            ],
+            "link" : "https://pick-a-flick-ucsd.herokuapp.com/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/pick-a-flick/master/images/pickaflick.png"
+        },
+
+        {
+            "heading": "Trivia Game",
+            "description": "Harry Potter fan take a swing into the wizarding world with this cool Trivia Game with the actual sound effects from the movie",
+            "technologies":[
+                "Bootstrap",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery"
+
+            ],
+            "link" : "https://sahanabalram.github.io/TriviaGame/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/TriviaGame/master/assets/images/trivia-game.png"
+        },
+       
+
+        {
+            "heading": "Giphy",
+            "description": "Have fun watching cute videos of your favourite movies, here is a chance to have a look at them at one stop",
+            "technologies": [
+                "Material UI",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "Giph API"
+            ],
+            "link" : "https://sahanabalram.github.io/giphyAPI/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/giphyAPI/master/assets/giphy.png"
+        },
+
+        {
+            "heading": "Friend Finder",
+            "description": "Like to make new friends? Here is an opportunity to find your best friend by just answering a few questions and vola you could find your friend with a click",
+            "technologies": [
+                "Bootstrap",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "Express",
+                "Node.js"
+            ],
+            "link" : "https://friend-finder-sb.herokuapp.com/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/FriendFinder/master/survey-page.png"
+        },
+
+        {
+            "heading": "Mongo Scraper",
+            "description": "Want to read New York Times , an opprtunity to view save and create Notes for the article",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "Express",
+                "Cherrio",
+                "Morgan"
+            ],
+            "link" : "https://mongo-scraper-sb.herokuapp.com/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/Mongo-Scraper/master/scraped-articles.png"
+        },
+
+        {
+            "heading": "Eat-Da-Burger",
+            "description": "Love Burgers, view this website to devour a burger that you have always wanted to taste",
+            "technologies": [
+                "Material UI",
+                "HTML",
+                "CSS",
+                "Express",
+                "Express-Handlebars",
+                "MySQL",
+                "Node.js"
+            ],
+            "link" : "https://eat-da-burger-sb.herokuapp.com/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/burger/master/eat-da-burger.png"
+        }
+    ]
+}

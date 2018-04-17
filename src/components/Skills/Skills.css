@@ -1,0 +1,15 @@
+h1,.panel-group {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+span.badge.badge-pill.badge-success {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.card.text-white.bg-primary.mb-3 {
+    height: 260px;
+    width: 300px;
+}

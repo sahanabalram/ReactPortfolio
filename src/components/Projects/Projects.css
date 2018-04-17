@@ -1,0 +1,35 @@
+.project-heading {
+    text-align: center;
+}
+
+.project-image {
+    height: 50%;
+    width: 100%;
+}
+
+.card.text-white.bg-primary.mb-3 {
+    height: 98%;
+    width: 98%;
+    margin: 1%;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.anchor-link {
+    color: white;
+}
+
+button.btn.btn-outline-success {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.alert.alert-dismissible.alert-success {
+    margin-top: 6px;
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+}
