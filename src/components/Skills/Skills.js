@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import {PanelGroup, Panel, ProgressBar} from 'react-bootstrap';
+import Pulse from 'react-reveal/Pulse';
 import './Skills.css';
 class SkillsContainer extends Component {
     render() {
@@ -7,7 +7,7 @@ class SkillsContainer extends Component {
             <div>
                 <div className="card border-primary mb-3">
                     <div className="card-header">
-                        <h2>Skills</h2>
+                       <Pulse> <h3>Skills <i class="fa fa-cogs" aria-hidden="true"></i></h3></Pulse>
                     </div>
                     <div className="card-body">
                         <h3 className="card-text">
