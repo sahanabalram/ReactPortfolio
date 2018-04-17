@@ -6,7 +6,8 @@ This Portfolio is developed using React and react-bootstrap
 
 ## Deployed Link
 https://sahanabalram.github.io/ReactPortfolio/
+
+![screenshot of the App](portfolio.png)
 ## Author
 Sahana Balram
 
-![screenshot of the App](portfolio.png)
