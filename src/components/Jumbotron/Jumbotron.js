@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Jumbotron} from 'react-bootstrap';
-import { Fade, Flip, Rotate, Zoom } from 'react-reveal';
+import {Flip} from 'react-reveal';
 import './Jumbotron.css';
 
 class JumbotronContainer extends Component {

@@ -11,7 +11,7 @@ class SummaryContainer extends Component {
         return (
             <div className="card border-primary mb-3">
                 <div className="card-header">
-                <h2>Summary <i class="fa fa-list-alt" aria-hidden="true"></i></h2>
+                <h2>Summary <i className="fa fa-list-alt" aria-hidden="true"></i></h2>
                 </div>
                 <div className="card-body">
                     <p className="card-text text-success">{this.state.summary.map(summaryLine =>(

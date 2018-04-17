@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Fade, Flip, Rotate, Zoom } from 'react-reveal';
+import {Zoom} from 'react-reveal';
 import './About.css';
 
 class AboutContainer extends Component {

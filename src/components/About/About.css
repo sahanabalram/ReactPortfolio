@@ -1,5 +1,6 @@
 img.img-responsive.img-circle {
     border: white solid 6px;
+    border-radius: 75%;
 }
 
 img.img-responsive.img-circle:hover {
