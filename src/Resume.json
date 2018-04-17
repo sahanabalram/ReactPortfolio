@@ -1,5 +1,6 @@
 {   
     "summary": [
+        "Teaching Assistant - Girl Develop It",
         "Highly motivated and goal oriented Web Developer",
         "Hands on Experience with web development",
         "Excellent communication and inter personal skills"
@@ -16,6 +17,11 @@
         }
     ,
     "education": [
+        { 
+            "degree": "Front-End Development Certification",
+            "university": "FreeCodeCamp, ",
+            "year": 2018
+        },
         { 
             "degree": "Web Develoment Coding BootCamp",
             "university": "University of California San Diego, ",
@@ -34,6 +40,69 @@
     ],
 
     "projects" : [
+        {
+            "heading": "Portfolio",
+            "description": "Project developed using React",
+            "technologies": [
+                "Material UI",
+                "Google Geo Code API",
+                "Google Maps API",
+                "Google Search API",
+                "Google Places API",
+                "Open Weather API",
+                "Farmer's Market API",
+                "Firebase NoSQL Database"
+            ],
+            "link": "https://sahanabalram.github.io/cartogram/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/cartogram/master/assets/images/app.JPG"
+        },
+        {
+            "heading": "Game of Life",
+            "description": "Project developed using React",
+            "technologies": [
+                "Material UI",
+                "Google Geo Code API",
+                "Google Maps API",
+                "Google Search API",
+                "Google Places API",
+                "Open Weather API",
+                "Farmer's Market API",
+                "Firebase NoSQL Database"
+            ],
+            "link": "https://sahanabalram.github.io/cartogram/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/cartogram/master/assets/images/app.JPG"
+        },
+        {
+            "heading": "Weather App",
+            "description": "Project developed using React",
+            "technologies": [
+                "Material UI",
+                "Google Geo Code API",
+                "Google Maps API",
+                "Google Search API",
+                "Google Places API",
+                "Open Weather API",
+                "Farmer's Market API",
+                "Firebase NoSQL Database"
+            ],
+            "link": "https://sahanabalram.github.io/cartogram/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/cartogram/master/assets/images/app.JPG"
+        },
+
+        {
+            "heading": "Simon Game",
+            "description": "A game",
+            "technologies":[
+                "Bootstrap",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery"
+
+            ],
+            "link" : "https://sahanabalram.github.io/TriviaGame/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/TriviaGame/master/assets/images/trivia-game.png"
+        },
         {
             "heading": "Cartogram",
             "description": "Project developed using Google Location and Weather API",
@@ -68,33 +137,7 @@
             "screenshot": "https://raw.githubusercontent.com/sahanabalram/BeatBot/master/public/images/beatbot1.png"
         },
 
-        {
-            "heading": "Pick-A-Flick",
-            "description": "Project developed using React and Google Chatbot",
-            "technologies": [
-                "React",
-                "React-materialize",
-                "MovieDB API",
-                "Google Chatbot"
-            ],
-            "link" : "https://pick-a-flick-ucsd.herokuapp.com/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/pick-a-flick/master/images/pickaflick.png"
-        },
-
-        {
-            "heading": "Trivia Game",
-            "description": "Harry Potter fan take a swing into the wizarding world with this cool Trivia Game with the actual sound effects from the movie",
-            "technologies":[
-                "Bootstrap",
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "jQuery"
-
-            ],
-            "link" : "https://sahanabalram.github.io/TriviaGame/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/TriviaGame/master/assets/images/trivia-game.png"
-        },
+        
        
 
         {
@@ -110,22 +153,6 @@
             ],
             "link" : "https://sahanabalram.github.io/giphyAPI/",
             "screenshot": "https://raw.githubusercontent.com/sahanabalram/giphyAPI/master/assets/giphy.png"
-        },
-
-        {
-            "heading": "Friend Finder",
-            "description": "Like to make new friends? Here is an opportunity to find your best friend by just answering a few questions and vola you could find your friend with a click",
-            "technologies": [
-                "Bootstrap",
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "jQuery",
-                "Express",
-                "Node.js"
-            ],
-            "link" : "https://friend-finder-sb.herokuapp.com/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/FriendFinder/master/survey-page.png"
         },
 
         {
