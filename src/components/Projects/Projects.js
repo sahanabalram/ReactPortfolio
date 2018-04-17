@@ -20,7 +20,7 @@ class ProjectContainer extends Component {
                                     <div
                                         className="card border-primary mb-3">
                                         <div className="card-header">
-                                            <h2>{projectLine.heading}</h2>
+                                            <h4>{projectLine.heading}</h4>
                                         </div>
                                         <div className="card-body">
                                             <img
@@ -30,16 +30,13 @@ class ProjectContainer extends Component {
 
                                             <p className="card-text">
                                                 Project Description: {projectLine.description}
-
                                                 <p>
                                                     <a className="anchor-link" href={projectLine.link} target="_blank">
                                                         <button type="button" class="btn btn-outline-success">Deployed Link</button>
                                                     </a>
                                                     <p>Technologies used: {projectLine.technologies}</p>
                                                 </p>
-
                                             </p>
-
                                         </div>
                                     </div>
                                 </Col>
