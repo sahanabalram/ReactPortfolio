@@ -8,6 +8,7 @@ import SkillContainer from './components/Skills';
 import ProjectContainer from './components/Projects';
 import ResumeDetails from './Resume.json';
 import AboutContainer from './components/About';
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
             </Col>
           </Row>
         </Grid>
+        <Footer/>
       </div>
     );
   }

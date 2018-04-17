@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Zoom} from 'react-reveal';
+import Bounce from 'react-reveal/Bounce';
 import './About.css';
 
 class AboutContainer extends Component {
@@ -7,10 +7,10 @@ class AboutContainer extends Component {
         return (
             <div className="card border-primary mb-3">
                 <div className="card-header">
-                   <h2>About</h2>
+                   <Bounce left><h2>About</h2></Bounce>
                 </div>
                 <div className="card-body">
-               <Zoom> <img className="img-responsive img-circle" src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAIA_wDGAAAAAQAAAAAAAA1IAAAAJDVhM2ExZThhLWJiNGYtNDAxNi1hZjBkLTc4OThmNDhiOWQ5Mw.jpg"  alt="Sahana Balram"/></Zoom>
+                <img className="img-responsive img-circle" src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAIA_wDGAAAAAQAAAAAAAA1IAAAAJDVhM2ExZThhLWJiNGYtNDAxNi1hZjBkLTc4OThmNDhiOWQ5Mw.jpg"  alt="Sahana Balram"/>
                     <p className="card-text text-success">{this.props.personalInfo.about}</p>
                 </div>
             </div>

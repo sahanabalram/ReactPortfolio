@@ -18,8 +18,7 @@ class ProjectContainer extends Component {
                             .map(projectLine => (
                                 <Col s={12} md={4} lg={4}>
                                     <div
-                                        className="card text-white bg-primary mb-3 card-rotating effect__click"
-                                        id="card-1">
+                                        className="card border-primary mb-3">
                                         <div className="card-header">
                                             <h2>{projectLine.heading}</h2>
                                         </div>

@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-.card.text-white.bg-primary.mb-3 {
+.card.border-primary.mb-3 {
     height: 98%;
     width: 98%;
     margin: 1%;
