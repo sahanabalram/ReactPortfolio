@@ -12,7 +12,7 @@ class AboutContainer extends Component {
 
                 </div>
                 <div className="card-body">
-                <img className="img-responsive img-circle" src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAIA_wDGAAAAAQAAAAAAAA1IAAAAJDVhM2ExZThhLWJiNGYtNDAxNi1hZjBkLTc4OThmNDhiOWQ5Mw.jpg"  alt="Sahana Balram"/>
+                <img className="img-responsive img-circle" src="https://media.licdn.com/dms/image/C5103AQEqYIy-Zi61fA/profile-displayphoto-shrink_200_200/0?e=1529186400&v=beta&t=vdTJ27j1ceRhq9mY0ZuMf1WUuqsgtpUU7rlYZN37uxA"  alt="Sahana Balram"/>
                     <p className="card-text text-success">{this.props.personalInfo.about}</p>
                 </div>
             </div>
