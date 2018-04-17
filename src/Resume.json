@@ -44,64 +44,20 @@
             "heading": "Portfolio",
             "description": "Project developed using React",
             "technologies": [
-                "Material UI",
-                "Google Geo Code API",
-                "Google Maps API",
-                "Google Search API",
-                "Google Places API",
-                "Open Weather API",
-                "Farmer's Market API",
-                "Firebase NoSQL Database"
+                "React-Bootstrap",
+                "React-reveal"
             ],
-            "link": "https://sahanabalram.github.io/cartogram/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/cartogram/master/assets/images/app.JPG"
+            "link": "https://sahanabalram.github.io/ReactPortfolio/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/ReactPortfolio/master/portfolio.png"
         },
         {
             "heading": "Game of Life",
             "description": "Project developed using React",
             "technologies": [
-                "Material UI",
-                "Google Geo Code API",
-                "Google Maps API",
-                "Google Search API",
-                "Google Places API",
-                "Open Weather API",
-                "Farmer's Market API",
-                "Firebase NoSQL Database"
+                "React-Bootstrap"
             ],
-            "link": "https://sahanabalram.github.io/cartogram/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/cartogram/master/assets/images/app.JPG"
-        },
-        {
-            "heading": "Weather App",
-            "description": "Project developed using React",
-            "technologies": [
-                "Material UI",
-                "Google Geo Code API",
-                "Google Maps API",
-                "Google Search API",
-                "Google Places API",
-                "Open Weather API",
-                "Farmer's Market API",
-                "Firebase NoSQL Database"
-            ],
-            "link": "https://sahanabalram.github.io/cartogram/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/cartogram/master/assets/images/app.JPG"
-        },
-
-        {
-            "heading": "Simon Game",
-            "description": "A game",
-            "technologies":[
-                "Bootstrap",
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "jQuery"
-
-            ],
-            "link" : "https://sahanabalram.github.io/TriviaGame/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/TriviaGame/master/assets/images/trivia-game.png"
+            "link": "https://sahanabalram.github.io/gameoflife/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/gameoflife/master/gameoflife.png"
         },
         {
             "heading": "Cartogram",
