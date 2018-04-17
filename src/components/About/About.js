@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Bounce from 'react-reveal/Bounce';
+import Pulse from 'react-reveal/Pulse';
 import './About.css';
 
 class AboutContainer extends Component {
@@ -7,7 +7,9 @@ class AboutContainer extends Component {
         return (
             <div className="card border-primary mb-3">
                 <div className="card-header">
-                   <Bounce left><h2>About</h2></Bounce>
+                   <Pulse><h3>About <i class="fa fa-user" aria-hidden="true"></i></h3></Pulse>
+                   
+
                 </div>
                 <div className="card-body">
                 <img className="img-responsive img-circle" src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAIA_wDGAAAAAQAAAAAAAA1IAAAAJDVhM2ExZThhLWJiNGYtNDAxNi1hZjBkLTc4OThmNDhiOWQ5Mw.jpg"  alt="Sahana Balram"/>
