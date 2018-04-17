@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
+import Pulse from 'react-reveal/Pulse';
 import './Projects.css';
 class ProjectContainer extends Component {
     state = {
@@ -20,7 +21,7 @@ class ProjectContainer extends Component {
                                     <div
                                         className="card border-primary mb-3">
                                         <div className="card-header">
-                                            <h4>{projectLine.heading}</h4>
+                                            <Pulse><h4>{projectLine.heading}</h4></Pulse>
                                         </div>
                                         <div className="card-body">
                                             <img
