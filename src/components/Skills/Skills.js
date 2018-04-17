@@ -7,49 +7,49 @@ class SkillsContainer extends Component {
             <div>
                 <div className="card border-primary mb-3">
                     <div className="card-header">
-                       <Pulse> <h3>Skills <i class="fa fa-cogs" aria-hidden="true"></i></h3></Pulse>
+                       <Pulse> <h3>Skills <i className="fa fa-cogs" aria-hidden="true"></i></h3></Pulse>
                     </div>
                     <div className="card-body">
                         <h3 className="card-text">
                             Web Technologies
                             
                         </h3>
-                        <span class="badge badge-pill badge-success">HTML</span>
-                        <span class="badge badge-pill badge-success">CSS</span>
-                        <span class="badge badge-pill badge-success">Javascript</span>
-                        <span class="badge badge-pill badge-success">jQuery</span>
-                        <span class="badge badge-pill badge-success">Node.js</span>
-                        <span class="badge badge-pill badge-success">React.js</span>
-                        <span class="badge badge-pill badge-success">Express</span>
-                        <span class="badge badge-pill badge-success">Express.handlebars</span>
-                        <span class="badge badge-pill badge-success">Wordpress</span>
-                        <span class="badge badge-pill badge-success">Drupal</span>
+                        <span className="badge badge-pill badge-success">HTML</span>
+                        <span className="badge badge-pill badge-success">CSS</span>
+                        <span className="badge badge-pill badge-success">Javascript</span>
+                        <span className="badge badge-pill badge-success">jQuery</span>
+                        <span className="badge badge-pill badge-success">Node.js</span>
+                        <span className="badge badge-pill badge-success">React.js</span>
+                        <span className="badge badge-pill badge-success">Express</span>
+                        <span className="badge badge-pill badge-success">Express.handlebars</span>
+                        <span className="badge badge-pill badge-success">Wordpress</span>
+                        <span className="badge badge-pill badge-success">Drupal</span>
 
                         <h3 className="card-text">
                             Version Control
                         </h3>
-                        <span class="badge badge-pill badge-success">Git</span>
-                        <span class="badge badge-pill badge-success">Github</span>
-                        <span class="badge badge-pill badge-success">Bitbucket</span>
+                        <span className="badge badge-pill badge-success">Git</span>
+                        <span className="badge badge-pill badge-success">Github</span>
+                        <span className="badge badge-pill badge-success">Bitbucket</span>
 
                         <h3 className="card-text">
                             Databases
                         </h3>
-                        <span class="badge badge-pill badge-success">NoSQL: MongoDB,Firebase</span>
-                        <span class="badge badge-pill badge-success">SQL: MySQL</span>
+                        <span className="badge badge-pill badge-success">NoSQL: MongoDB,Firebase</span>
+                        <span className="badge badge-pill badge-success">SQL: MySQL</span>
 
                         <h3 className="card-text">
                             Cloud
                         </h3>
-                    <span class="badge badge-pill badge-success">Heroku</span>
-                    <span class="badge badge-pill badge-success">Google Firebase</span>
+                    <span className="badge badge-pill badge-success">Heroku</span>
+                    <span className="badge badge-pill badge-success">Google Firebase</span>
 
                     <h3 className="card-text">
                             Testing Tools
                         </h3>
-                    <span class="badge badge-pill badge-success">Mocha</span>
-                    <span class="badge badge-pill badge-success">Chai</span>
-                    <span class="badge badge-pill badge-success">RQM Quality Manager</span>
+                    <span className="badge badge-pill badge-success">Mocha</span>
+                    <span className="badge badge-pill badge-success">Chai</span>
+                    <span className="badge badge-pill badge-success">RQM Quality Manager</span>
 
                     </div>
                 </div>

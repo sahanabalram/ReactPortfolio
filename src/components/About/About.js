@@ -7,7 +7,7 @@ class AboutContainer extends Component {
         return (
             <div className="card border-primary mb-3">
                 <div className="card-header">
-                   <Pulse><h3>About <i class="fa fa-user" aria-hidden="true"></i></h3></Pulse>
+                   <Pulse><h3>About <i className="fa fa-user" aria-hidden="true"></i></h3></Pulse>
                    
 
                 </div>
