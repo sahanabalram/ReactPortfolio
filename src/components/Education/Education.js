@@ -10,7 +10,7 @@ class EducationContainer extends Component {
             <div>
                 <div className="card border-primary mb-3">
                     <div className="card-header">
-                    <Pulse><h3>Education <i class="fa fa-graduation-cap" aria-hidden="true"></i></h3></Pulse>
+                    <Pulse><h3 id="education">Education <i class="fa fa-graduation-cap" aria-hidden="true"></i></h3></Pulse>
                     </div>
                     <div className="card-body">
                         <p className="card-text text-success">{this.state.education.map(educationLine => (<p>{educationLine.degree} {educationLine.university}<span class="badge badge-pill badge-primary">{educationLine.year}</span></p>
