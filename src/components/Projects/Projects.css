@@ -29,7 +29,10 @@ button.btn.btn-outline-success {
 .alert.alert-dismissible.alert-success {
     margin-top: 6px;
 }
-
-h2 {
-    font-family: 'Noto Serif', serif;
+h4{
+    font-family: 'Nunito', sans-serif; 
+}
+p {
+    font-family: 'Crimson Text', serif;
+    font-size: 15px;
 }
