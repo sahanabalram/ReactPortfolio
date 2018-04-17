@@ -1,12 +1,3 @@
-img.img-responsive.img-circle {
-    border: white solid 6px;
-    border-radius: 75%;
-}
-
-img.img-responsive.img-circle:hover {
-    border: #18BC9C solid 6px;
-}
-
 p.card-text {
     margin: 2px;
 }
