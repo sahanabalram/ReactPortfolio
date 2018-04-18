@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.project-image {
+.card-image-top {
     height: 50%;
     width: 100%;
 }
@@ -17,6 +17,10 @@
     font-size: 14px;
 }
 
+.card {
+    width: 250px;
+}
+
 .anchor-link {
     color: white;
 }
@@ -29,10 +33,12 @@ button.btn.btn-outline-success {
 .alert.alert-dismissible.alert-success {
     margin-top: 6px;
 }
-h4{
-    font-family: 'Nunito', sans-serif; 
+
+h4 {
+    font-family: 'Nunito', sans-serif;
 }
+
 p {
     font-family: 'Crimson Text', serif;
-    font-size: 15px;
+    font-size: 15px; 
 }
