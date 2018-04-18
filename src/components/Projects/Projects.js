@@ -24,7 +24,7 @@ class ProjectContainer extends Component {
                                         <div className="card-body">
                                             <Pulse><h4>{projectLine.heading}</h4></Pulse>
                                             <p className="card-text">Project description: {projectLine.description}</p>
-                                            <a href={projectLine.link} className="btn btn-outline-success" target="_blank">Learn More</a>
+                                            <a href={projectLine.link} className="btn btn-outline-success" target="_blank">Deployed Link</a>
                                         </div>
                                     </div>
                                 </Col>
