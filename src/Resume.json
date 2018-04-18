@@ -60,6 +60,14 @@
             "screenshot": "https://raw.githubusercontent.com/sahanabalram/gameoflife/master/gameoflife.png"
         },
         {
+            "heading": "Simon Game",
+            "description": "Project developed using HTML, CSS, Javascript",
+            "technologies": ["HTML","CSS","JavaScript"
+            ],
+            "link": "https://sahanabalram.github.io/simongame/",
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/simongame/master/simongame.png"
+        },
+        {
             "heading": "Cartogram",
             "description": "Project developed using Google Location and Weather API",
             "technologies": [
