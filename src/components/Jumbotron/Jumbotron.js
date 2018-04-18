@@ -3,21 +3,20 @@ import {Jumbotron} from 'react-bootstrap';
 import HeadShake from 'react-reveal/HeadShake';
 import './Jumbotron.css';
 class JumbotronContainer extends Component {
-    
+
     state = {
         info: this.props.personalInfo || []
     };
     render() {
         return (
             <Jumbotron>
-           <HeadShake><h1 className="text-center ">{this.props.personalInfo.name}</h1></HeadShake>
-                <p className="text-center">{this.props.personalInfo.location}</p>
+                <HeadShake>
+                    <h1 className="text-center ">{this.props.personalInfo.name}</h1>
+                </HeadShake>
+                <p className="text-center" id="location">{this.props.personalInfo.location}</p>
                 <p className="text-center">
                     {/*Place this tag where you want the button to render.*/}
-                    <a
-                        className="github-button"
-                        href={this.props.personalInfo.github}
-                        aria-label="Follow @ntkme on GitHub">Follow @sahanabalram</a>
+                    <a href={this.props.personalInfo.github}><i className="fa fa-github fa-3x" target="_blank"></i></a>
                     <a href={this.props.personalInfo.linkedIn} target="_blank">
                         <i className="fa fa-linkedin fa-3x"></i>
                     </a>
