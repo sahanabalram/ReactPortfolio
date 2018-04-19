@@ -16,16 +16,20 @@ class App extends Component {
       <div>
         <JumbotronContainer personalInfo={ResumeDetails.personalInfo}/>
         <Grid>
+          <Row className="about-row">
+            <AboutContainer personalInfo={ResumeDetails.personalInfo}/>
+            {/*<SummaryContainer summary={ResumeDetails.summary}/>*/}
+          </Row>
           <Row className="main-row">
-            <Col s={12} md={4} lg={3}>
-              <Row><AboutContainer personalInfo={ResumeDetails.personalInfo}/></Row>
-              <Row><SummaryContainer summary={ResumeDetails.summary}/></Row>
-              <Row><EducationContainer education={ResumeDetails.education}/></Row>
-              <Row><SkillContainer/></Row>
+            <Col s={12} md={6} lg={6}>
+              <EducationContainer education={ResumeDetails.education}/>
+              </Col>
+              <Col s={12} md={6} lg={6}>
+              <SkillContainer/>
             </Col>
-            <Col s={12} md={8} lg={9}>
-              <ProjectContainer projects={ResumeDetails.projects}/>
-            </Col>
+          </Row>
+          <Row className="project-row">
+            <ProjectContainer projects={ResumeDetails.projects}/>
           </Row>
         </Grid>
         <Footer/>
