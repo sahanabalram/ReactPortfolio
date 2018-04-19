@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
 import Card from "../Cards";
 import Jump from 'react-reveal/Jump';
-import './Projects.css';
 class ProjectContainer extends Component {
     constructor(props) {
         super(props);
@@ -20,7 +19,7 @@ class ProjectContainer extends Component {
                             .state
                             .projects
                             .map(projectLine => (
-                                <Col s={12} md={4} lg={4}>
+                                <Col s={12} md={6} lg={4}>
                                     <Jump>
                                         <Card projectLine={projectLine}/>
                                     </Jump>

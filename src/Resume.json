@@ -42,7 +42,7 @@
     "projects" : [
         {
             "heading": "Portfolio",
-            "description": "Project developed using React",
+            "description": "Developed using React",
             "technologies": [
                 "React-Bootstrap",
                 "React-reveal"
@@ -53,7 +53,7 @@
         },
         {
             "heading": "Game of Life",
-            "description": "Project developed using React",
+            "description": "Developed using React",
             "technologies": [
                 "React-Bootstrap"
             ],
@@ -63,7 +63,7 @@
         },
         {
             "heading": "Simon Game",
-            "description": "Project developed using HTML, CSS, Javascript",
+            "description": "Developed using HTML, CSS, Javascript",
             "technologies": ["HTML","CSS","JavaScript"
             ],
             "link": "https://sahanabalram.github.io/simongame/",
@@ -72,7 +72,7 @@
         },
         {
             "heading": "Cartogram",
-            "description": "Project developed using Google Location and Weather API",
+            "description": "Developed using Google Location and Weather API",
             "technologies": [
                 "Material UI",
                 "Google Geo Code API",

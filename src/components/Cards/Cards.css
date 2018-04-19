@@ -2,36 +2,31 @@
     text-align: center;
 }
 
-.card-image-top {
-    height: 50%;
+.project-card-header{
+    height: 45%;
     width: 100%;
 }
 
-.card.border-primary.mb-3 {
-    height: 98%;
-    width: 98%;
-    margin: 1%;
+.project-card-body {
+    height: 37%;
+    width: 100%;
 }
-
+.project-card-footer{
+    height: 18%;
+    width: 100%;
+}
 .card-text {
     font-size: 14px;
 }
 
-.card {
+.project-card {
     width: 250px;
+    height: 330px;
+    border-radius: 4%;
 }
 
 .anchor-link {
     color: white;
-}
-
-button.btn.btn-outline-success {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.alert.alert-dismissible.alert-success {
-    margin-top: 6px;
 }
 
 h4 {
@@ -41,8 +36,4 @@ h4 {
 p {
     font-family: 'Crimson Text', serif;
     font-size: 15px;
-}
-
-a.btn.btn-outline-success {
-    margin-top: 10px;
 }
