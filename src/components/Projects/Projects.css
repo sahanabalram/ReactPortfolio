@@ -40,5 +40,9 @@ h4 {
 
 p {
     font-family: 'Crimson Text', serif;
-    font-size: 15px; 
+    font-size: 15px;
+}
+
+a.btn.btn-outline-success {
+    margin-top: 10px;
 }
