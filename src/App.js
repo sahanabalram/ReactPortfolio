@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Grid, Col, Row} from 'react-bootstrap';
 import './App.css';
 import JumbotronContainer from './components/Jumbotron';
-import SummaryContainer from './components/Summary';
+// import SummaryContainer from './components/Summary';
 import EducationContainer from './components/Education';
 import SkillContainer from './components/Skills';
 import ProjectContainer from './components/Projects';

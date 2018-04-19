@@ -1,13 +1,8 @@
 import React, {Component} from "react";
-import {Grid, Col, Row} from "react-bootstrap";
 import Pulse from 'react-reveal/Pulse';
-import Jump from 'react-reveal/Jump';
+// import Jump from 'react-reveal/Jump';
 import "./Cards.css";
 class Card extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     state = {
         projectLine: this.props.projectLine || []
     };

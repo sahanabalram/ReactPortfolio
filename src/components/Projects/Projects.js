@@ -3,9 +3,6 @@ import {Grid, Row, Col} from 'react-bootstrap';
 import Card from "../Cards";
 import Jump from 'react-reveal/Jump';
 class ProjectContainer extends Component {
-    constructor(props) {
-        super(props);
-    }
     state = {
         projects: this.props.projects || []
     };
@@ -19,9 +16,9 @@ class ProjectContainer extends Component {
                             .state
                             .projects
                             .map(projectLine => (
-                                <Col s={12} md={6} lg={4}>
+                                <Col s={12} md={6} lg={4} key={projectLine.toString()}>
                                     <Jump>
-                                        <Card projectLine={projectLine}/>
+                                        <Card  projectLine={projectLine}/>
                                     </Jump>
                                 </Col>
                             ))}

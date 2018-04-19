@@ -12,7 +12,7 @@ class EducationContainer extends Component {
                     <div className="card-header">
                         <Pulse>
                             <h3 id="education">Education
-                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                <i className="fa fa-graduation-cap" aria-hidden="true"></i>
                             </h3>
                         </Pulse>
                     </div>
@@ -21,7 +21,7 @@ class EducationContainer extends Component {
                                 .state
                                 .education
                                 .map(educationLine => (
-                                    <p>
+                                    <p key={educationLine.toString()}>
                                         <span className="edu-degree">{educationLine.degree}</span>
                                         <br/> <span>{educationLine.university} ({educationLine.year})</span>
                                     </p>
