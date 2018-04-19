@@ -3,7 +3,9 @@ span.badge.badge-pill.badge-success {
     margin-bottom: 5px;
     font-size: 10px;
 }
-
+span.badge.badge-pill.badge-success:hover{
+    font-size: 15px;
+}
 .card.bg-primary.mb-3 {
     height: 250px;
     width: 300px;
