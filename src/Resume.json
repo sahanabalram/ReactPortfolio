@@ -48,7 +48,8 @@
                 "React-reveal"
             ],
             "link": "https://sahanabalram.github.io/ReactPortfolio/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/ReactPortfolio/master/portfolio.png"
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/ReactPortfolio/master/portfolio.png",
+            "color": "#e75d5d"
         },
         {
             "heading": "Game of Life",
@@ -57,7 +58,8 @@
                 "React-Bootstrap"
             ],
             "link": "https://sahanabalram.github.io/gameoflife/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/gameoflife/master/gameoflife.png"
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/gameoflife/master/gameoflife.png",
+            "color": "#6fc0d1"
         },
         {
             "heading": "Simon Game",
@@ -65,7 +67,8 @@
             "technologies": ["HTML","CSS","JavaScript"
             ],
             "link": "https://sahanabalram.github.io/simongame/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/simongame/master/simongame.png"
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/simongame/master/simongame.png",
+            "color": "#6fc0d1"
         },
         {
             "heading": "Cartogram",
@@ -81,32 +84,13 @@
                 "Firebase NoSQL Database"
             ],
             "link": "https://sahanabalram.github.io/cartogram/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/cartogram/master/assets/images/app.JPG"
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/cartogram/master/assets/images/app.JPG",
+            "color": "#6fc0d1"
         },
-        {
-            "heading": "BeatBot",
-            "description": "Project developed using Express, Express-HandleBars, Node.js, Sequelize,Spotify and iTunes API",
-            "technologies": [
-                "Bootstrap",
-                "Node.js",
-                "Express",
-                "Express-Handlebars",
-                "Sequelize",
-                "Spotify API",
-                "Apple iTunes API",
-                "Passport",
-                "bCrypt"
-            ],
-            "link": "https://beatbot-ucsd.herokuapp.com/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/BeatBot/master/public/images/beatbot1.png"
-        },
-
-        
-       
 
         {
             "heading": "Giphy",
-            "description": "Have fun watching cute videos of your favourite movies, here is a chance to have a look at them at one stop",
+            "description": "Have fun watching cute videos of your favourite movies",
             "technologies": [
                 "Material UI",
                 "HTML",
@@ -116,39 +100,9 @@
                 "Giph API"
             ],
             "link" : "https://sahanabalram.github.io/giphyAPI/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/giphyAPI/master/assets/giphy.png"
-        },
-
-        {
-            "heading": "Mongo Scraper",
-            "description": "Want to read New York Times , an opprtunity to view save and create Notes for the article",
-            "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "jQuery",
-                "Express",
-                "Cherrio",
-                "Morgan"
-            ],
-            "link" : "https://mongo-scraper-sb.herokuapp.com/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/Mongo-Scraper/master/scraped-articles.png"
-        },
-
-        {
-            "heading": "Eat-Da-Burger",
-            "description": "Love Burgers, view this website to devour a burger that you have always wanted to taste",
-            "technologies": [
-                "Material UI",
-                "HTML",
-                "CSS",
-                "Express",
-                "Express-Handlebars",
-                "MySQL",
-                "Node.js"
-            ],
-            "link" : "https://eat-da-burger-sb.herokuapp.com/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/burger/master/eat-da-burger.png"
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/giphyAPI/master/assets/giphy.png",
+            "color": "#6fc0d1"
         }
+        
     ]
 }
