@@ -19,22 +19,22 @@
     "education": [
         { 
             "degree": "Front-End Development Certification",
-            "university": "FreeCodeCamp, ",
+            "university": "FreeCodeCamp",
             "year": 2018
         },
         { 
             "degree": "Web Develoment Coding BootCamp",
-            "university": "University of California San Diego, ",
+            "university": "University of California, San Diego",
             "year": 2017
         },
         {
             "degree": "Master's of Information and Communication Technology",
-            "university": "University of Western Sydney, Australia, ",
+            "university": "University of Western Sydney, Australia",
             "year": 2015
         },
         {
             "degree": "Bachelors of Computer Science",
-            "university": "Karpagam University, ",
+            "university": "Karpagam University",
             "year": 2013
         }
     ],
