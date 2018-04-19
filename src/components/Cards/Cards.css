@@ -8,11 +8,11 @@
 }
 
 .project-card-body {
-    height: 37%;
+    height: 40%;
     width: 100%;
 }
 .project-card-footer{
-    height: 18%;
+    height: 15%;
     width: 100%;
 }
 .card-text {
@@ -20,7 +20,7 @@
 }
 
 .project-card {
-    width: 350px;
+    width: 300px;
     height: 430px;
     border-radius: 4%;
 }
@@ -33,7 +33,7 @@ h4 {
     font-family: 'Nunito', sans-serif;
 }
 
-p {
+.project-card-description{
     font-family: 'Crimson Text', serif;
     font-size: 15px;
 }

@@ -26,7 +26,7 @@ class Card extends Component {
                     <Pulse>
                         <h4>{projectLine.heading}</h4>
                     </Pulse>
-                    <p className="card-text">{projectLine.description}</p>
+                    <p className="card-text 4project-card-description">{projectLine.description}</p>
                 </div>
                 <div className="card-footer project-card-footer text-center">
                     <a href={projectLine.link} className="btn btn-outline-success" target="_blank">Deployed Link</a>
