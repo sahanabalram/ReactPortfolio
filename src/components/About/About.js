@@ -3,6 +3,9 @@ import Pulse from 'react-reveal/Pulse';
 import './About.css';
 
 class AboutContainer extends Component {
+    state = {
+        info: this.props.personalInfo || []
+    };
     render() {
         return (
             <div className="card border-primary mb-3">
@@ -32,6 +35,7 @@ class AboutContainer extends Component {
                                     <li>Excellent communication and inter personal skills</li>
                                 </ul>
                             </div>
+                            
                         </div>
 
                     </div>

@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div>
-      <Navbar/>
+       {/*<Navbar/>*/}
         <JumbotronContainer personalInfo={ResumeDetails.personalInfo}/>
         <Grid>
           <Row className="about-row">

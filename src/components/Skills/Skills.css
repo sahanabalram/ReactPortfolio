@@ -1,8 +1,3 @@
-h1,.panel-group {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 span.badge.badge-pill.badge-success {
     margin-left: 5px;
     margin-bottom: 5px;
@@ -12,4 +7,7 @@ span.badge.badge-pill.badge-success {
 .card.bg-primary.mb-3 {
     height: 250px;
     width: 300px;
+}
+h3.card-text.skills {
+    font-size: 20px;
 }
