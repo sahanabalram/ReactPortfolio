@@ -10,3 +10,25 @@ img.img-responsive.img-circle:hover {
 p.card-text {
     margin: 2px;
 }
+
+li {
+    list-style-type: square;
+    font-size: 18px;
+    font-family: 'Crimson Text', serif;
+}
+
+i.fa.fa-code.fa-2x,
+i.fa.fa-music.fa-2x,
+i.fa.fa-camera.fa-2x {
+    margin-left: 10px;
+    margin-right: 2px;
+}
+i.fa.fa-code.fa-2x:hover{
+    color: salmon;
+}
+i.fa.fa-music.fa-2x:hover{
+    color: salmon;
+}
+i.fa.fa-camera.fa-2x:hover{
+    color: salmon;
+}

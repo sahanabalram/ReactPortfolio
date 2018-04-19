@@ -24,7 +24,7 @@ class AboutContainer extends Component {
                                     className="img-responsive img-circle"
                                     src="https://media.licdn.com/dms/image/C5103AQEqYIy-Zi61fA/profile-displayphoto-shrink_200_200/0?e=1529186400&v=beta&t=vdTJ27j1ceRhq9mY0ZuMf1WUuqsgtpUU7rlYZN37uxA"
                                     alt="Sahana Balram"/>
-                                <p className="card-text text-success">{this.props.personalInfo.about}</p>
+                                <p className="card-text">{this.props.personalInfo.about}</p>
                             </div>
 
                             <div className="col-lg-4 offset-lg-1">
@@ -34,6 +34,11 @@ class AboutContainer extends Component {
                                     <li>Hands on experience with web development</li>
                                     <li>Excellent communication and inter personal skills</li>
                                 </ul>
+
+                                <p>My hobbies are:</p>
+                                <span><i className="fa fa-code fa-2x" aria-hidden="true"></i></span>
+                                <span><i className="fa fa-music fa-2x" aria-hidden="true"></i></span>
+                                <span><i className="fa fa-camera fa-2x" aria-hidden="true"></i></span>
                             </div>
                             
                         </div>
