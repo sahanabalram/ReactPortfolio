@@ -19,7 +19,7 @@ class Card extends Component {
 
                 <div className="card-body project-card-body">
                     <Pulse>
-                        <h4>{projectLine.heading}</h4>
+                        <h4 className="project-heading">{projectLine.heading}</h4>
                     </Pulse>
                     <p className="card-text 4project-card-description">{projectLine.description}</p>
                 </div>

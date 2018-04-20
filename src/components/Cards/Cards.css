@@ -29,8 +29,9 @@
     color: white;
 }
 
-h4 {
+.project-heading {
     font-family: 'Nunito', sans-serif;
+    color: #e83e8c;
 }
 
 .project-card-description{

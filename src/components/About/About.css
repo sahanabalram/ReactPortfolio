@@ -4,7 +4,7 @@ img.img-responsive.img-circle {
 }
 
 img.img-responsive.img-circle:hover {
-    border: #18BC9C solid 6px;
+    border: #593196 solid 6px;
 }
 
 p.card-text {
@@ -24,11 +24,11 @@ i.fa.fa-camera.fa-2x {
     margin-right: 2px;
 }
 i.fa.fa-code.fa-2x:hover{
-    color: salmon;
+    color: #18BC9C;
 }
 i.fa.fa-music.fa-2x:hover{
-    color: salmon;
+    color: #18BC9C;
 }
 i.fa.fa-camera.fa-2x:hover{
-    color: salmon;
+    color: #18BC9C;
 }
