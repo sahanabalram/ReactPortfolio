@@ -14,3 +14,6 @@ p.card-text{
 .edu-degree {
     color: #e83e8c;
 }
+i.fa.fa-graduation-cap:hover{
+    color: #18BC9C;
+}
