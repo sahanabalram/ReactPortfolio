@@ -21,7 +21,7 @@ class EducationContainer extends Component {
                                 .state
                                 .education
                                 .map(educationLine => (
-                                    <p key={educationLine.toString()}>
+                                    <p key={educationLine.degree.toString()}>
                                         <span className="edu-degree">{educationLine.degree}</span>
                                         <br/> <span>{educationLine.university} ({educationLine.year})</span>
                                     </p>

@@ -16,7 +16,7 @@ class ProjectContainer extends Component {
                             .state
                             .projects
                             .map(projectLine => (
-                                <Col s={12} md={6} lg={4} key={projectLine.toString()}>
+                                <Col s={12} md={6} lg={4} key={projectLine.heading.toString()}>
                                     <Jump>
                                         <Card  projectLine={projectLine}/>
                                     </Jump>
