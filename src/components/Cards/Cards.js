@@ -21,22 +21,28 @@ class Card extends Component {
     };
     render() {
         let projectLine = this.state.projectLine;
+        let flippedFront = this.state.flippedCard ? "card-back" : "card-front";
+        let flippedBack = this.state.flippedCard ? "card-front" : "card-back";
         return (
             <div>
-                    <div className="card project-card border-primary mb-3">
+                    <div className="card project-card border-primary mb-3" onClick={(e) => this.flip(e)}>
                         <div className="card-header project-card-header">
                             <img
                                 className="card-img-top"
                                 src={projectLine.screenshot}
                                 alt={projectLine.heading}/>
                         </div>
-                        <div className="card-body project-card-body" onClick={(e) => this.flip(e)}>
+                        <div className={"card-body project-card-body " + flippedFront}>
                             <Pulse>
                                 <h4 className="project-heading">{projectLine.heading}</h4>
                             </Pulse>
                             <p className="card-text project-card-description">{projectLine.description}</p>
                         </div>
-                        <div className="card-body card-back"></div>
+                        <div className={"card-body project-card-body " + flippedBack}>
+                            <Pulse>
+                                <h4 className="project-heading">{projectLine.technologies}</h4>
+                            </Pulse>
+                        </div>
                         <div className="card-footer project-card-footer text-center">
                             <a href={projectLine.link} className="btn btn-outline-success" target="_blank">Deployed Link</a>
                         </div>
