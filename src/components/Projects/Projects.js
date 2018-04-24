@@ -9,16 +9,22 @@ class ProjectContainer extends Component {
     render() {
         return (
             <div className="container">
-                {/*<h1 className="project-heading">Projects</h1>*/}
+                <h1 className="project-heading">Projects</h1>
                 <Grid>
                     <Row>
                         {this
                             .state
                             .projects
                             .map(projectLine => (
-                                <Col s={12} md={6} lg={4} key={projectLine.heading.toString()}>
+                                <Col
+                                    s={12}
+                                    md={6}
+                                    lg={4}
+                                    key={projectLine
+                                    .heading
+                                    .toString()}>
                                     <Jump>
-                                        <Card  projectLine={projectLine}/>
+                                        <Card projectLine={projectLine}/>
                                     </Jump>
                                 </Col>
                             ))}
