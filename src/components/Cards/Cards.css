@@ -38,3 +38,13 @@
     font-family: 'Crimson Text', serif;
     font-size: 15px;
 }
+
+.card-back {
+    visibility: hidden;
+    display:none;
+}
+
+.card-front {
+    visibility: visible;
+    display:block;
+}
