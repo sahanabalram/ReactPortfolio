@@ -14,3 +14,7 @@ h3.card-text.skills {
     font-size: 20px;
     color: #e83e8c;
 }
+
+i.fa.fa-cogs:hover{
+    color: #18BC9C;
+}
