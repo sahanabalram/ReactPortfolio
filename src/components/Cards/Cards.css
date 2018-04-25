@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.project-card-header{
+.project-card-header {
     height: 45%;
     width: 100%;
 }
@@ -11,10 +11,12 @@
     height: 40%;
     width: 100%;
 }
-.project-card-footer{
+
+.project-card-footer {
     height: 15%;
     width: 100%;
 }
+
 .card-text {
     font-size: 14px;
 }
@@ -34,17 +36,26 @@
     color: #e83e8c;
 }
 
-.project-card-description{
+.project-card-description {
     font-family: 'Crimson Text', serif;
     font-size: 15px;
 }
 
 .card-back {
     visibility: hidden;
-    display:none;
+    display: none;
+    opacity: 1;
+    animation: fade 2s linear ;
 }
 
 .card-front {
     visibility: visible;
-    display:block;
+    display: block;
+    opacity: 1;
+    animation: fade 2s linear ;
+}
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
 }
