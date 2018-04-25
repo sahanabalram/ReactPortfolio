@@ -43,7 +43,10 @@ class Card extends Component {
                         <p className="card-text project-card-description">{projectLine.description}</p>
                     </div>
                     <div className={"card-body project-card-body " + flippedBack}>
-                        <h4 className="project-heading">{projectLine.technologies}</h4>
+                        <h4 className="project-heading">Technologies</h4>
+                        {projectLine.technologies
+                            .map(t => <span>{t}</span>)
+                            .reduce((prev, curr) => [prev, ', ', curr])}
                     </div>
                     <div className="card-footer project-card-footer text-center">
                         <a href={projectLine.link} className="btn btn-outline-success" target="_blank">Deployed Link</a>
