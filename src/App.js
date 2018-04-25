@@ -4,7 +4,7 @@ import './App.css';
 import JumbotronContainer from './components/Jumbotron';
 // import NavbarContainer from './components/Navbar';
 import EducationContainer from './components/Education';
-import SkillContainer from './components/Skills';
+import SkillsTagCloudContainer from "./components/SkillsTagCloud";
 import ProjectContainer from './components/Projects';
 import ResumeDetails from './Resume.json';
 import AboutContainer from './components/About';
@@ -26,7 +26,7 @@ class App extends Component {
               <EducationContainer education={ResumeDetails.education}/>
               </Col>
               <Col s={12} md={6} lg={6}>
-              <SkillContainer/>
+              <SkillsTagCloudContainer skills={ResumeDetails.skills}/>
             </Col>
           </Row>
           <Row className="project-row">

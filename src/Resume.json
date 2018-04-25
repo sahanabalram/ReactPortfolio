@@ -1,28 +1,23 @@
-{   
+{
     "summary": [
         "Teaching Assistant - Girl Develop It",
         "Highly motivated and goal oriented Web Developer",
         "Hands on Experience with web development",
         "Excellent communication and inter personal skills"
     ],
-
-    "personalInfo" : 
-        {
-            "about": "",
-            "name": "Sahana Balram",
-            "location": "San Diego, CA",
-            "github": "https://github.com/sahanabalram",
-            "linkedIn": "https://www.linkedin.com/in/sahana-balram/"
-
-        }
-    ,
-    "education": [
-        { 
+    "personalInfo": {
+        "about": "",
+        "name": "Sahana Balram",
+        "location": "San Diego, CA",
+        "github": "https://github.com/sahanabalram",
+        "linkedIn": "https://www.linkedin.com/in/sahana-balram/"
+    },
+    "education": [{
             "degree": "Front-End Development Certification",
             "university": "FreeCodeCamp",
             "year": 2018
         },
-        { 
+        {
             "degree": "Web Develoment Coding BootCamp",
             "university": "University of California, San Diego",
             "year": 2017
@@ -38,9 +33,7 @@
             "year": 2013
         }
     ],
-
-    "projects" : [
-        {
+    "projects": [{
             "heading": "Portfolio",
             "description": "Developed using React",
             "technologies": [
@@ -64,8 +57,7 @@
         {
             "heading": "Simon Game",
             "description": "Developed using HTML, CSS, Javascript",
-            "technologies": ["HTML","CSS","JavaScript"
-            ],
+            "technologies": ["HTML", "CSS", "JavaScript"],
             "link": "https://sahanabalram.github.io/simongame/",
             "screenshot": "https://raw.githubusercontent.com/sahanabalram/simongame/master/simongame.png",
             "color": "#6fc0d1"
@@ -99,10 +91,89 @@
                 "jQuery",
                 "Giph API"
             ],
-            "link" : "https://sahanabalram.github.io/giphyAPI/",
+            "link": "https://sahanabalram.github.io/giphyAPI/",
             "screenshot": "https://raw.githubusercontent.com/sahanabalram/giphyAPI/master/assets/giphy.png",
             "color": "#6fc0d1"
         }
-        
+    ],
+    "skills": [{
+            "value": "jQuery",
+            "count": 25
+        },
+        {
+            "value": "MongoDB",
+            "count": 18
+        },
+        {
+            "value": "JavaScript",
+            "count": 27
+        },
+        {
+            "value": "React",
+            "count": 31
+        },
+        {
+            "value": "Nodejs",
+            "count": 28
+        }, {
+            "value": "Express.js",
+            "count": 25
+        },
+        {
+            "value": "HTML5",
+            "count": 38
+        },
+        {
+            "value": "CSS3",
+            "count": 25
+        },
+        {
+            "value": "Express-Handlebar",
+            "count": 22
+        },
+        {
+            "value": "MySQL",
+            "count": 21
+        },
+        {
+            "value": "Git",
+            "count": 25
+        },
+        {
+            "value": "GitHub",
+            "count": 25
+        },
+        {
+            "value": "Bitbucket",
+            "count": 10
+        },
+        {
+            "value": "Chai",
+            "count": 15
+        },
+        {
+            "value": "Mocha",
+            "count": 17
+        },
+        {
+            "value": "RQM",
+            "count": 5
+        },
+        {
+            "value": "Wordpress",
+            "count": 25
+        },
+        {
+            "value": "Drupal",
+            "count": 15
+        },
+        {
+            "value": "Heroku",
+            "count": 25
+        },
+        {
+            "value": "Firebase",
+            "count": 11
+        }
     ]
 }
