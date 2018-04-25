@@ -35,54 +35,50 @@
     ],
     "projects": [{
             "heading": "Portfolio",
-            "description": "Developed using React",
+            "description": "Personal web portfolio developed using React",
             "technologies": [
+                "React",
                 "React-Bootstrap",
-                "React-reveal"
+                "React-tagcloud",
+                "CSS"
             ],
             "link": "https://sahanabalram.github.io/ReactPortfolio/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/ReactPortfolio/master/portfolio.png",
-            "color": "#e75d5d"
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/ReactPortfolio/master/portfolio.png"
         },
         {
             "heading": "Game of Life",
-            "description": "Developed using React",
+            "description": "Cellular automation game, where One interacts with the Game of Life by creating an initial configuration and observing how it evolves",
             "technologies": [
-                "React-Bootstrap"
+                "React",
+                "React-Bootstrap",
+                "CSS"
             ],
             "link": "https://sahanabalram.github.io/gameoflife/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/gameoflife/master/gameoflife.png",
-            "color": "#6fc0d1"
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/gameoflife/master/gameoflife.png"
         },
         {
             "heading": "Simon Game",
-            "description": "Developed using HTML, CSS, Javascript",
+            "description": "An electronic game of memory skill",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "link": "https://sahanabalram.github.io/simongame/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/simongame/master/simongame.png",
-            "color": "#6fc0d1"
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/simongame/master/simongame.png"
         },
         {
             "heading": "Cartogram",
-            "description": "Developed using Google Location and Weather API",
+            "description": "A single page web application displays weather, farmer's market locations and restautrants in google maps near the current location",
             "technologies": [
                 "Material UI",
-                "Google Geo Code API",
-                "Google Maps API",
-                "Google Search API",
-                "Google Places API",
+                "Google (Geo Code, Maps, Places, Search) APIs",
                 "Open Weather API",
                 "Farmer's Market API",
                 "Firebase NoSQL Database"
             ],
             "link": "https://sahanabalram.github.io/cartogram/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/cartogram/master/assets/images/app.JPG",
-            "color": "#6fc0d1"
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/cartogram/master/assets/images/app.JPG"
         },
-
         {
             "heading": "Giphy",
-            "description": "Have fun watching cute videos of your favourite movies",
+            "description": "A single page web application displays gif's of your favourtie movies",
             "technologies": [
                 "Material UI",
                 "HTML",
@@ -92,8 +88,7 @@
                 "Giph API"
             ],
             "link": "https://sahanabalram.github.io/giphyAPI/",
-            "screenshot": "https://raw.githubusercontent.com/sahanabalram/giphyAPI/master/assets/giphy.png",
-            "color": "#6fc0d1"
+            "screenshot": "https://raw.githubusercontent.com/sahanabalram/giphyAPI/master/assets/giphy.png"
         }
     ],
     "skills": [{
@@ -110,11 +105,11 @@
         },
         {
             "value": "React",
-            "count": 31
+            "count": 30
         },
         {
             "value": "Nodejs",
-            "count": 28
+            "count": 23
         }, {
             "value": "Express.js",
             "count": 25
@@ -137,7 +132,7 @@
         },
         {
             "value": "Git",
-            "count": 25
+            "count": 30
         },
         {
             "value": "GitHub",
@@ -153,7 +148,7 @@
         },
         {
             "value": "Mocha",
-            "count": 17
+            "count": 15
         },
         {
             "value": "RQM",
@@ -173,7 +168,7 @@
         },
         {
             "value": "Firebase",
-            "count": 11
+            "count": 10
         }
     ]
 }
