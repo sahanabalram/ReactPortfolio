@@ -5,7 +5,7 @@
 #education{
     font-family: 'Nunito', sans-serif; 
 }
-p.card-text{
+span.card-text{
     font-family: 'Crimson Text', serif;
     font-size: 20px;
     color: black;

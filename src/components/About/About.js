@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Pulse from 'react-reveal/Pulse';
 import './About.css';
 
 class AboutContainer extends Component {
@@ -10,11 +9,9 @@ class AboutContainer extends Component {
         return (
             <div className="card border-primary mb-3 profile-card">
                 <div className="card-header">
-                    <Pulse>
-                        <h3>Profile
-                            <i className="fa fa-user" aria-hidden="true"></i>
-                        </h3>
-                    </Pulse>
+                    <h3>Profile
+                        <i className="fa fa-user" aria-hidden="true"></i>
+                    </h3>
                 </div>
                 <div className="card-body">
                     <div className="card-block">
@@ -35,12 +32,18 @@ class AboutContainer extends Component {
                                 </ul>
 
                                 <p>My hobbies include:
-                                <span><i className="fa fa-code fa-2x" aria-hidden="true"></i></span>
-                                <span><i className="fa fa-music fa-2x" aria-hidden="true"></i></span>
-                                <span><i className="fa fa-camera fa-2x" aria-hidden="true"></i></span>
+                                    <span>
+                                        <i className="fa fa-code fa-2x" aria-hidden="true"></i>
+                                    </span>
+                                    <span>
+                                        <i className="fa fa-music fa-2x" aria-hidden="true"></i>
+                                    </span>
+                                    <span>
+                                        <i className="fa fa-camera fa-2x" aria-hidden="true"></i>
+                                    </span>
                                 </p>
                             </div>
-                            
+
                         </div>
 
                     </div>

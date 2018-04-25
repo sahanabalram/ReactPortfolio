@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Jumbotron} from 'react-bootstrap';
-import HeadShake from 'react-reveal/HeadShake';
 import './Jumbotron.css';
 class JumbotronContainer extends Component {
 
@@ -10,9 +9,7 @@ class JumbotronContainer extends Component {
     render() {
         return (
             <Jumbotron>
-                <HeadShake>
-                    <h1 className="text-center ">{this.props.personalInfo.name}</h1>
-                </HeadShake>
+                <h1 className="text-center ">{this.props.personalInfo.name}</h1>
                 <p className="text-center" id="location">{this.props.personalInfo.location}</p>
                 <p className="text-center">
                     {/*Place this tag where you want the button to render.*/}
