@@ -22,10 +22,10 @@ class App extends Component {
             {/*<SummaryContainer summary={ResumeDetails.summary}/>*/}
           </Row>
           <Row className="main-row">
-            <Col s={12} md={6} lg={6}>
+            <Col s={12} md={12} lg={6}>
               <EducationContainer education={ResumeDetails.education}/>
               </Col>
-              <Col s={12} md={6} lg={6}>
+              <Col s={12} md={12} lg={6}>
               <SkillsTagCloudContainer skills={ResumeDetails.skills}/>
             </Col>
           </Row>
