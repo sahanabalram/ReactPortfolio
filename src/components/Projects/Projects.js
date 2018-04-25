@@ -2,14 +2,24 @@ import React, {Component} from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
 import Card from "../Cards";
 import Jump from 'react-reveal/Jump';
+import Pulse from 'react-reveal/Pulse';
 class ProjectContainer extends Component {
     state = {
         projects: this.props.projects || []
     };
     render() {
         return (
-            <div className="container">
-                <h1 className="project-heading">Projects</h1>
+            <div className="card border-primary mb-3">
+            <div className="card-header">
+                <Pulse>
+                    <h3>Projects
+                        <i className="fa fa-user" aria-hidden="true"></i>
+                    </h3>
+                </Pulse>
+            </div>
+            <div className="card-body">
+                <div className="card-block">
+                <div className="container">
                 <Grid>
                     <Row>
                         {this
@@ -32,6 +42,12 @@ class ProjectContainer extends Component {
                     </Row>
                 </Grid>
             </div>
+
+                </div>
+
+            </div>
+        </div>
+
         )
     }
 }

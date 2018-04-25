@@ -11,6 +11,10 @@ p.card-text {
     margin: 2px;
 }
 
+.profile-card {
+    width: 100%;
+}
+
 li {
     list-style-type: square;
     font-size: 18px;
