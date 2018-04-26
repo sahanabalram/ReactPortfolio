@@ -4,7 +4,7 @@ img.img-responsive.img-circle {
 }
 
 img.img-responsive.img-circle:hover {
-    border: #2C3E50 solid 6px;
+    border: #18BC9C solid 6px;
 }
 
 p.card-text {
@@ -17,8 +17,7 @@ p.card-text {
 
 li {
     list-style-type: square;
-    font-size: 18px;
-    font-family: 'Crimson Text', serif;
+    font-size: 20px;
 }
 
 i.fa.fa-code.fa-2x,
@@ -35,4 +34,11 @@ i.fa.fa-music.fa-2x:hover{
 }
 i.fa.fa-camera.fa-2x:hover{
     color: #18BC9C;
+}
+i.fa.fa-user {
+    margin-left: 2px;
+}
+
+i.fa.fa-user:hover {
+    color:#18BC9C;
 }

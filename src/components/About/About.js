@@ -10,7 +10,7 @@ class AboutContainer extends Component {
             <div className="card border-primary mb-3 profile-card">
                 <div className="card-header">
                     <h3>Profile
-                        <i className="fa fa-user" aria-hidden="true"></i>
+                         <i className="fa fa-user" aria-hidden="true"></i>
                     </h3>
                 </div>
                 <div className="card-body">
