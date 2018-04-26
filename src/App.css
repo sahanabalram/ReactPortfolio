@@ -30,6 +30,7 @@
 body{
   background: #18BC9C; /* For browsers that do not support gradients */
   background: linear-gradient(to left, rgba(255,0,0,0), #18BC9C);
+  font-family: 'Crimson Text', serif;
 }
 #App {
   display: flex;
