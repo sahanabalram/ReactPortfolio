@@ -13,14 +13,9 @@
         "linkedIn": "https://www.linkedin.com/in/sahana-balram/"
     },
     "education": [{
-            "degree": "Front-End Development Certification",
-            "university": "FreeCodeCamp",
-            "year": 2018
-        },
-        {
-            "degree": "Web Develoment Coding BootCamp",
-            "university": "University of California, San Diego",
-            "year": 2017
+            "degree": "Bachelors of Computer Science",
+            "university": "Karpagam University",
+            "year": 2013
         },
         {
             "degree": "Master's of Information and Communication Technology",
@@ -28,9 +23,15 @@
             "year": 2015
         },
         {
-            "degree": "Bachelors of Computer Science",
-            "university": "Karpagam University",
-            "year": 2013
+            "degree": "Web Develoment Coding BootCamp",
+            "university": "University of California, San Diego",
+            "year": 2017
+        },
+
+        {
+            "degree": "Front-End Development Certification",
+            "university": "FreeCodeCamp",
+            "year": 2018
         }
     ],
     "projects": [{
