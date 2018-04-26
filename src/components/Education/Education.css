@@ -17,3 +17,6 @@ span.card-text{
 i.fa.fa-graduation-cap:hover{
     color: #18BC9C;
 }
+i.fa.fa-graduation-cap{
+    margin-left: 2px;
+}
