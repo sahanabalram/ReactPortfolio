@@ -44,15 +44,19 @@
 .card-back {
     visibility: hidden;
     display: none;
-    opacity: 1;
-    animation: fade 2s linear ;
+    /* opacity: 1;
+    animation: fade 2s linear ; */
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
 }
 
 .card-front {
     visibility: visible;
     display: block;
-    opacity: 1;
-    animation: fade 1s linear ;
+    /* opacity: 1;
+    animation: fade 1s linear ; */
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
 }
 
 @keyframes fade {
