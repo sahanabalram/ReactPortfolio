@@ -8,7 +8,7 @@ class ProjectContainer extends Component {
     };
     render() {
         return (
-            <div className="card border-primary mb-3">
+            <div className="card border-primary mb-3" id="projects-link">
                 <div className="card-header">
                     <h3>Projects
                         <i className="fa fa-code" aria-hidden="true"></i>
