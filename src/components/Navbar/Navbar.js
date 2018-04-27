@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Navbar, NavItem, Nav, NavDropdown, MenuItem} from "react-bootstrap";
+import {Navbar} from "react-bootstrap";
 
 import "./Navbar.css";
 class NavbarContainer extends Component {
@@ -11,10 +11,10 @@ class NavbarContainer extends Component {
                     </Navbar.Brand>
                 </Navbar.Header>
                 <Navbar.Text pullRight>
-                    <Navbar.Link href="#profile-link"> Profile </Navbar.Link>
-                    <Navbar.Link href="#education-link"> Education </Navbar.Link>
-                    <Navbar.Link href="#skills-link"> Skills </Navbar.Link>
-                    <Navbar.Link href="#projects-link"> Projects </Navbar.Link>
+                    <Navbar.Link href="#profile-link">Profile</Navbar.Link>
+                    <Navbar.Link href="#education-link">Education</Navbar.Link>
+                    <Navbar.Link href="#skills-link">Skills</Navbar.Link>
+                    <Navbar.Link href="#projects-link">Projects</Navbar.Link>
                 </Navbar.Text>
             </Navbar>
         );
