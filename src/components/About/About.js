@@ -7,7 +7,7 @@ class AboutContainer extends Component {
     };
     render() {
         return (
-            <div className="card border-primary mb-3 profile-card">
+            <div className="card border-primary mb-3 profile-card" id="profile-link">
                 <div className="card-header">
                     <h3>Profile
                          <i className="fa fa-user" aria-hidden="true"></i>
@@ -26,12 +26,12 @@ class AboutContainer extends Component {
 
                             <div className="col-lg-8">
                                 <ul>
-                                    <li>Teaching Assistant - Girl Develop It, San Diego</li>
-                                    <li>Highly motivated and goal oriented Web Developer</li>
-                                    <li>Excellent communication and inter personal skills</li>
+                                    <li className="about-self">Teaching Assistant - Girl Develop It, San Diego</li>
+                                    <li className="about-self">Highly motivated and goal oriented Web Developer</li>
+                                    <li className="about-self">Excellent communication and inter personal skills</li>
                                 </ul>
 
-                                <p>My hobbies include:
+                                <p id="hobbies">My hobbies include:
                                     <span>
                                         <i className="fa fa-code fa-2x" aria-hidden="true"></i>
                                     </span>
