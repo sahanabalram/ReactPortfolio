@@ -6,7 +6,7 @@ class EducationContainer extends Component {
     };
     render() {
         return (
-            <div>
+            <div id="education-link">
                 <div className="card border-primary mb-3">
                     <div className="card-header">
                         <h3 id="education">Education
