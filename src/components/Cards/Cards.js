@@ -45,7 +45,7 @@ class Card extends Component {
                     <div className={"card-body project-card-body " + flippedBack}>
                         <h4 className="project-heading">Technologies</h4>
                         {projectLine.technologies
-                            .map((t,i) => <span key={i}>{t}</span>)
+                            .map((t,i) => <span className="project-card-description" key={i}>{t}</span>)
                             .reduce((prev, curr) => [prev, ', ', curr])}
                     </div>
                     <div className="card-footer project-card-footer text-center">
