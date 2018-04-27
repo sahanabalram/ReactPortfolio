@@ -10,9 +10,11 @@ img.img-responsive.img-circle:hover {
 p.card-text {
     margin: 2px;
 }
+
 #hobbies {
     font-size: 20px;
 }
+
 .profile-card {
     width: 100%;
 }
@@ -20,6 +22,7 @@ p.card-text {
 .about-self {
     list-style-type: square;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 i.fa.fa-code.fa-2x,
@@ -28,19 +31,23 @@ i.fa.fa-camera.fa-2x {
     margin-left: 10px;
     margin-right: 2px;
 }
-i.fa.fa-code.fa-2x:hover{
+
+i.fa.fa-code.fa-2x:hover {
     color: #18BC9C;
 }
-i.fa.fa-music.fa-2x:hover{
+
+i.fa.fa-music.fa-2x:hover {
     color: #18BC9C;
 }
-i.fa.fa-camera.fa-2x:hover{
+
+i.fa.fa-camera.fa-2x:hover {
     color: #18BC9C;
 }
+
 i.fa.fa-user {
     margin-left: 2px;
 }
 
 i.fa.fa-user:hover {
-    color:#18BC9C;
+    color: #18BC9C;
 }
