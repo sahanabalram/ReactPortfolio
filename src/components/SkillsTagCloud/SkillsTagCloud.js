@@ -24,7 +24,7 @@ class SkillsTagCloudContainer extends Component {
     }
     render() {
         return (
-            <div>
+            <div id="skills-link">
                 <div className="card border-primary mb-3" id="skills-container-border">
                     <div className="card-header">
                             <h3>Skills
